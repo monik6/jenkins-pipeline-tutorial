@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Run the static analysis to the code, Monik Kaole' 
             }
         }
         stage('Compile') {
@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'Run the security check against the application, Monik' 
             }
         }
         stage('Run Unit Tests') {
